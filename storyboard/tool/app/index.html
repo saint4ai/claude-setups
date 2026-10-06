@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Раскадровка</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header id="top">
+  <div class="brand"><span class="dot"></span><span id="title">Раскадровка</span></div>
+  <select id="project" title="Проект"></select>
+  <div class="stats" id="stats"></div>
+  <div class="filters" id="filters"></div>
+  <div class="spacer"></div>
+  <label class="author">Я: <input id="author" value="Автор" spellcheck="false"></label>
+  <button id="helpBtn" class="btn ghost">Как работать</button>
+  <button id="summaryBtn" class="btn ghost">Сводка правок</button>
+</header>
+<section id="ribbon" aria-label="Лента кадров по времени"></section>
+<main id="main">
+  <section id="grid" aria-label="Кадры"></section>
+  <aside id="panel" aria-label="Кадр"></aside>
+</main>
+<div id="modal" hidden></div>
+<div id="toast" hidden></div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
