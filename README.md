@@ -12,6 +12,7 @@
 | [`storyboard`](storyboard/) | Доска раскадровки: кадры готового ролика на странице в браузере, на кадре пишешь, что поменять, прикладываешь скриншот или видео эффекта, Claude читает правки, чинит ролик и отвечает в ветке | кодового слова пока нет |
 | [`mcp-connectors`](mcp-connectors/) | 4 коннектора для Claude: свежий интернет (Perplexity), разбор сайтов (Firecrawl), браузер (Playwright), 300+ приложений (Composio). Адреса и шаги подключения | «4 коннектора», кодовое слово «MCP» |
 | [`metricool`](metricool/) | Claude видит статистику Instagram, TikTok, YouTube и LinkedIn через Metricool и подсказывает, когда выкладывать | «Claude и соцсети через Metricool», кодовое слово «соцсети» |
+| [`sales-connectors`](sales-connectors/) | 5 коннекторов для маркетинга и продаж: реклама Meta, Google и TikTok (Pipeboard), WhatsApp (GREEN-API), звонки (Fireflies), B2B-контакты (Apollo), Битрикс24 | кодовое слово «продажи» |
 
 ## Отдельные репозитории
 
